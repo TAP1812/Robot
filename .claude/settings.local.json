@@ -16,7 +16,16 @@
       "Bash(unix2dos --version)",
       "Bash(python3 -c ' *)",
       "Bash(unix2dos -d \"E:/Robot/install_dependencies.sh\")",
-      "Bash(dos2unix \"E:/Robot/install_dependencies.sh\")"
+      "Bash(dos2unix \"E:/Robot/install_dependencies.sh\")",
+      "Bash(python3 -c \"import rclpy\")",
+      "Bash(python3 -c \"from geometry_msgs.msg import PoseStamped\")",
+      "Bash(python3 -c \"from visualization_msgs.msg import MarkerArray\")",
+      "Read(//etc/**)",
+      "Bash(dpkg --print-architecture)",
+      "Bash(lsb_release -cs)",
+      "Bash(pip install *)",
+      "Bash(timeout 5 python3 app.py)",
+      "Bash(timeout 4 python3 app.py)"
     ]
   }
 }
