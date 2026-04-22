@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import rclpy\")",
+      "Bash(python -c \"import geometry_msgs\")",
+      "Bash(python -c \"import visualization_msgs\")",
+      "Bash(python -c \"import std_msgs\")",
+      "Bash(where ros2 *)",
+      "Read(//opt/**)",
+      "Read(//c/opt/**)",
+      "Bash(pip list *)",
+      "Bash(wsl --list --verbose)",
+      "Bash(wsl -d Ubuntu -- lsb_release -a)",
+      "Bash(wsl -d Ubuntu -- which ros2)",
+      "Bash(wsl -d Ubuntu -- ls /opt/ros)",
+      "Bash(unix2dos --version)",
+      "Bash(python3 -c ' *)",
+      "Bash(unix2dos -d \"E:/Robot/install_dependencies.sh\")",
+      "Bash(dos2unix \"E:/Robot/install_dependencies.sh\")"
+    ]
+  }
+}
